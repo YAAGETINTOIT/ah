@@ -1,0 +1,18 @@
+player.onChat("run", function () {
+	
+})
+let name = "jcoba";
+// hair colour
+let hair_color = "brown"
+let age = 12
+let likechicken = true;
+
+age = randint (1,100);
+player.say("your age is : "+ age)
+if (age > 50 && hair_color == "brown"){
+
+    player.say("yaa get into it and bad at it");
+}else {
+
+    player.say ("you have a bad singing voice but good at sports");
+}
